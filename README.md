@@ -55,5 +55,3 @@ StudyZen/
 This project is inspired by modern dashboard-based productivity tools and aims to provide a simple yet effective study tracking experience.
 
 ---
-
-If you like this project, consider giving it a ⭐ on GitHub!
