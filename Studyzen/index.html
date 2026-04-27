@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyZen</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app">
+
+```
+<aside class="sidebar">
+    <h2><i class="fa-solid fa-leaf"></i> StudyZen</h2>
+    <ul>
+        <li><i class="fa-solid fa-chart-line"></i> Dashboard</li>
+        <li><i class="fa-solid fa-plus"></i> Add Session</li>
+        <li><i class="fa-solid fa-clock"></i> Stats</li>
+    </ul>
+</aside>
+
+<main class="main">
+
+    <header class="topbar">
+        <h1>Dashboard</h1>
+    </header>
+
+    <section class="stats">
+        <div class="stat-card">
+            <h3>0 hrs</h3>
+            <p>Total Study</p>
+        </div>
+        <div class="stat-card">
+            <h3>0</h3>
+            <p>Streak</p>
+        </div>
+        <div class="stat-card">
+            <h3>0%</h3>
+            <p>Consistency</p>
+        </div>
+    </section>
+
+    <section class="content">
+
+        <div class="card">
+            <h2><i class="fa-solid fa-book-open"></i> Add Session</h2>
+            <form id="studyForm">
+                <input type="text" id="subject" placeholder="Subject" required>
+                <input type="number" id="time" placeholder="Time (minutes)" required>
+                <input type="date" id="date" required>
+                <button type="submit"><i class="fa-solid fa-plus"></i> Add</button>
+            </form>
+        </div>
+
+        <div class="card">
+            <h2><i class="fa-solid fa-chart-line"></i> Sessions</h2>
+            <ul id="sessionList"></ul>
+        </div>
+
+    </section>
+
+</main>
+```
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
